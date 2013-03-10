@@ -6,7 +6,7 @@ position: absolute;
 width: 60%;
 height: 100%;
 left: 20%;
-background-color: #f6f6f6;
+background-color: #d3d3d3;
 }
 
 #banner {
@@ -21,9 +21,9 @@ border-bottom-right-radius: 7px;
 
 #main_content {
 position: absolute;
-width: 100%;
+width: 99%;
 height: 100%;
-left: 0%;
+left: 0.5%;
 top: 8%;
 background-color: f6f6f6;
 border-bottom-left-radius: 7px;
