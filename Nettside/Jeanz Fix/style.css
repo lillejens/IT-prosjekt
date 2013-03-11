@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+#total_body {
+position: absolute;
+width: 60%;
+height: 100%;
+left: 20%;
+background-color: #d3d3d3;
+}
+
+#banner {
+position: absolute;
+width: 100%;
+height: 8%;
+left: 0%;
+background-color: #00a1dd;
+border-bottom-left-radius: 7px;
+border-bottom-right-radius: 7px;
+}
+
+#main_content {
+position: absolute;
+width: 99%;
+height: 100%;
+left: 0.5%;
+top: 8%;
+background-color: f6f6f6;
+border-bottom-left-radius: 7px;
+border-bottom-right-radius: 7px;
+}
+
+#button1 {
+position: absolute;
+width: 10%;
+height: 100%;
+left: 5%;
+border-left-style: dotted;
+border-right-style: dotted;
+border-width: 1px;
+}
+
+#button2 {
+position: absolute;
+width: 10%;
+height: 100%;
+left: 15%;
+border-right-style: dotted;
+border-left-style: dotted;
+border-width: 1px;
+}
+
+#button3 {
+position: absolute;
+width: 10%;
+height: 100%;
+left: 25%;
+border-right-style: dotted;
+border-left-style: dotted;
+border-width: 1px;
+}
+
+#button4 {
+position: absolute;
+width: 10%;
+height: 100%;
+left: 35%;
+border-right-style: dotted;
+border-left-style: dotted;
+border-width: 1px;
+}
+
+#button5 {
+position: absolute;
+width: 10%;
+height: 100%;
+left: 45%;
+border-right-style: dotted;
+border-left-style: dotted;
+border-width: 1px;
+}
+
+#button6 {
+position: absolute;
+width: 10%;
+height: 100%;
+left: 55%;
+border-right-style: dotted;
+border-left-style: dotted;
+border-width: 1px;
+}
+
+#button7 {
+position: absolute;
+width: 10%;
+height: 100%;
+left: 65%;
+border-right-style: dotted;
+border-left-style: dotted;
+border-width: 1px;
+}
+
+body {
+background-color: #d3d3d3;
+}
