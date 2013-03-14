@@ -6,7 +6,7 @@ position: absolute;
 width: 60%;
 height: 100%;
 left: 20%;
-background-image:url('\Bilder\bakgrunn3.png');
+background-image:url('bakgrunn3.png');
 background-repeat:repeat;
 }
 
@@ -29,7 +29,7 @@ width: 59%;
 height: 100%;
 left: 20.5%;
 top: 9%;
-background-image:url('\Bilder\bakgrunn10.png');
+background-image:url('bakgrunn4.png');
 background-repeat:repeat;
 border-bottom-left-radius: 7px;
 border-bottom-right-radius: 7px;
