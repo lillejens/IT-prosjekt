@@ -1,15 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-#total_body {
-position: absolute;
-width: 60%;
-height: 100%;
-left: 20%;
-background-image:url('bakgrunn3.png');
-background-repeat:repeat;
-}
-
 #banner {
 position: absolute;
 width: 60%;
@@ -23,10 +14,89 @@ border-bottom-right-radius: 7px;
 box-shadow: 1px 2px 2px rgba(0,0,0,.58);
 }
 
+#button1 {
+position: absolute;
+width: 7%;
+height: 30%;
+left: 3%;
+bottom: 35%;
+background-color: #6bb3d7;
+font-family: "Myriad Pro";
+font-size: 20px;
+color: #ffffff;
+text-shadow: 1px 2px 2px rgba(0,0,0,.58);
+text-align: center;
+}
+
+
+#button2 {
+position: absolute;
+width: 9%;
+height: 30%;
+left: 10%;
+bottom: 35%;
+background-color: #6bb3d7;
+font-family: "Myriad Pro";
+font-size: 20px;
+color: #ffffff;
+text-shadow: 1px 2px 2px rgba(0,0,0,.58);
+text-align: center;
+}
+
+#button3 {
+position: absolute;
+width: 12%;
+height: 30%;
+left: 19%;
+bottom: 35%;
+background-color: #6bb3d7;
+font-family: "Myriad Pro";
+font-size: 20px;
+color: #ffffff;
+text-shadow: 1px 2px 2px rgba(0,0,0,.58);
+text-align: center;
+}
+
+#button4 {
+position: absolute;
+width: 6%;
+height: 30%;
+left: 31%;
+bottom: 35%;
+background-color: #6bb3d7;
+font-family: "Myriad Pro";
+font-size: 20px;
+color: #ffffff;
+text-shadow: 1px 2px 2px rgba(0,0,0,.58);
+text-align: center;
+}
+
+#button5 {
+position: absolute;
+width: 9%;
+height: 30%;
+left: 37%;
+bottom: 35%;
+background-color: #6bb3d7;
+font-family: "Myriad Pro";
+font-size: 20px;
+color: #ffffff;
+text-shadow: 1px 2px 2px rgba(0,0,0,.58);
+text-align: center;
+}
+
+#logo {
+position: absolute;
+width: 20%;
+height: 90%;
+right: -5%;
+top: 25%;
+}
+
 #main_content {
 position: absolute;
 width: 59%;
-height: 100%;
+height: 120%;
 left: 20.5%;
 top: 9%;
 background-image:url('bakgrunn4.png');
@@ -65,7 +135,7 @@ position: absolute;
 width: 95%;
 height: 35%;
 left: 2.5%;
-top: 10%;
+top: 7.5%;
 background-color: #ffffff;
 border-bottom-left-radius: 7px;
 border-bottom-right-radius: 7px;
@@ -81,7 +151,7 @@ position: absolute;
 width: 30%;
 height: 30%;
 left: 2.5%;
-top: 47.5%;
+top: 45%;
 background-image:url('bakgrunn5.png');
 background-repeat:repeat;
 border-bottom-left-radius: 7px;
@@ -98,7 +168,7 @@ position: absolute;
 width: 30%;
 height: 30%;
 left: 35%;
-top: 47.5%;
+top: 45%;
 background-image:url('bakgrunn5.png');
 background-repeat:repeat;
 border-bottom-left-radius: 7px;
@@ -115,7 +185,7 @@ position: absolute;
 width: 30%;
 height: 30%;
 left: 67.5%;
-top: 47.5%;
+top: 45%;
 background-image:url('bakgrunn5.png');
 background-repeat:repeat;
 border-bottom-left-radius: 7px;
@@ -350,6 +420,6 @@ text-align: center;
 }
 
 body {
-background-image:url('bakgrunn3.png');
-background-repeat:repeat;
+background-image: url(bakgrunn3.png);
+background-repeat: repeat;
 }

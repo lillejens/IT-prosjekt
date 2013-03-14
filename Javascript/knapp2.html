@@ -1,0 +1,54 @@
+<html>
+<head>
+<style>
+#butt {
+}
+</style>
+
+</head>
+<body>
+<div id="butt" onmouseover="mOver(this)" onmouseout="mOut(this)" onmouseup="mUp(this)"  onmousedown="mDown(this)"></div>
+
+<script>
+function mOver(obj)
+{
+obj.style.background="url(bannerstyle1.png)";
+}
+
+var size = 200;
+var mTop = 100;
+var mLeft = 100;
+var inc = 0;
+
+function mOut(obj)
+{
+obj.style.background="url(bannerstyle2.png)";
+}
+
+function mDown(obj)
+{
+obj.style.height=size-inc + 'px';
+obj.style.width=size-inc + 'px';
+obj.style.marginTop=mTop + inc/2 + 'px';
+obj.style.marginLeft=mTop + inc/2 + 'px';
+}
+
+function mUp(obj)
+{
+obj.style.height=size + 'px';
+obj.style.width=size + 'px';
+obj.style.marginTop=mTop + 'px';
+obj.style.marginLeft=mTop + 'px';
+}
+window.onload = function() {var obj = document.getElementById("butt"); 
+obj.style.height=size + 'px';
+obj.style.width=size + 'px';
+obj.style.marginTop=mTop + 'px';
+obj.style.marginLeft=mTop + 'px';
+
+obj.style.background="url(bannerstyle1.png)";
+} 
+
+</script>
+</body>
+</html>
